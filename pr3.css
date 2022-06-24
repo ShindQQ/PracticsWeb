@@ -1,0 +1,41 @@
+.divstyle
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+}
+
+.h3style
+{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+}
+
+.istyle
+{
+    color: aqua;
+}
+
+.bstyle
+{
+    color: burlywood;
+}
+
+.htmlstyle
+{
+    background-color: green;
+    color: aliceblue;
+}
+
+.cssstyle
+{
+    background-color: red;
+    color: aliceblue;
+}
+
+.jsstyle
+{
+    background-color: yellow;
+    color: black;
+}
