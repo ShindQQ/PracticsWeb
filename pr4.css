@@ -1,0 +1,59 @@
+.greendiv
+{
+    background-color: green;
+    border-left: 10px solid greenyellow;
+}
+
+.bluediv
+{
+    background-color: blue;
+    border-left: 10px solid blueviolet;
+}
+
+.yellowdiv
+{
+    background-color: yellow;
+    border-left: 10px solid orange;
+}
+
+.reddiv
+{
+    background-color: red;
+    border-left: 10px solid crimson;
+}
+
+.pdives
+{
+    color: black;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.divstyle 
+{
+    background-color: greenyellow;
+    border: 5px solid beige;
+}
+
+.divstyle  h3
+{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.divstyle div
+{
+    background-color: grey;
+    padding:10px;
+    font-size: 20px;
+    border-top: 5px solid beige;
+}
+
+.button button
+{
+    height: 50px;
+    width: 50px;
+    outline: 5px solid gray;
+    font-size: 12px;
+}
