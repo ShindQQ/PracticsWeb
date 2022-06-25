@@ -1,0 +1,67 @@
+.block
+{
+    height: 50px;
+    background-color: grey;
+}
+
+.block div
+{
+    padding: 11px;
+    border-right: 2px solid black;
+    display: inline-block;
+}
+
+.block div a
+{
+    color: aliceblue;
+    font-size: 24px;
+    padding: 0px 5px;
+}
+
+.autoblock
+{
+    border: 5px solid black;
+    width: 30%;
+}
+
+.autoblock p
+{
+    background-color: yellowgreen;
+    margin-left: 60%;
+    text-align: right;
+    width: 30%;
+}
+
+.panel
+{
+    height: 100px;
+    background-color: grey;
+}
+
+.panel div
+{
+    border: 1px solid black;
+    padding: 6px;
+    margin: 25px;
+    display: inline-block;
+}
+
+.facebook
+{
+    background-color: blue;
+}
+
+.youtube
+{
+    background-color: crimson;
+}
+
+.instagram
+{
+    background-color: blueviolet;
+}
+
+.twitter
+{
+    background-color: aqua;
+}
