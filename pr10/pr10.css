@@ -223,6 +223,13 @@
     color: #646F75;
 }
 
+
+.prices .items .item1 .pbutton .buttonitem:hover
+{
+   background-color: #14931F;
+   color: #DFDBF5;
+}
+
 .prices .items .item2 .pbutton .buttonitem
 {
     height: 50px;
@@ -231,6 +238,13 @@
     font-size: 24px;
     color: #646F75;
 }
+
+.prices .items .item2 .pbutton .buttonitem:hover
+{
+   background-color: #14931F;
+   color: #DFDBF5;
+}
+
 
 .wrapper
 {
