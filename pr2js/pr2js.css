@@ -1,0 +1,12 @@
+div 
+{
+    background-color: aliceblue;
+}
+
+div p 
+{
+    color: aqua;
+    font-size: 48px;
+    margin: auto;
+    text-align: center;
+}
