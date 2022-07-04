@@ -115,7 +115,7 @@
     list-style: circle;
 }
 
-.prices .items .item1
+.prices .items .item:nth-child(odd)
 {
     height: 450px;
     width: 25%;
@@ -126,7 +126,7 @@
     position: relative;
 }
 
-.prices .items .item2
+.prices .items .item:nth-child(even)
 {
     height: 450px;
     width: 25%;
@@ -137,7 +137,7 @@
     position: relative;
 }
 
-.prices .items .item1 .pitem1
+.prices .items .item:nth-child(odd) .pitem
 {
     color: #14931F;
     font-size: 36px;
@@ -146,7 +146,7 @@
     overflow-wrap: break-word;
 }
 
-.prices .items .item2 .pitem2
+.prices .items .item:nth-child(even) .pitem
 {
     color: white;
     font-size: 36px;
@@ -155,7 +155,7 @@
     overflow-wrap: break-word;
 }
 
-.prices .items .item1 ul
+.prices .items .item:nth-child(odd) ul
 {
     width: 50%;
     display: inline-block;
@@ -165,7 +165,7 @@
     color: #646F75;
 }
 
-.prices .items .item2 ul
+.prices .items .item:nth-child(even) ul
 {
     width: 50%;
     display: inline-block;
@@ -175,7 +175,7 @@
     color: white;
 }
 
-.prices .items .item1 .pbutton
+.prices .items .item .pbutton:nth-child(odd)
 {
     display: flex;
     justify-content: space-between;
@@ -189,7 +189,7 @@
     align-items: center;
 }
 
-.prices .items .item2 .pbutton
+.prices .items .item .pbutton:nth-child(even)
 {
 	display: flex;
     justify-content: space-between;
@@ -202,19 +202,19 @@
     align-items: center;
 }
 
-.prices .items .item1 .pbutton p
+.prices .items .item .pbutton p:nth-child(odd)
 {
     color: #646F75;
     font-size: 24px;
 }
 
-.prices .items .item2 .pbutton p
+.prices .items .item .pbutton p:nth-child(even)
 {
     color: white;
     font-size: 24px;
 }
 
-.prices .items .item1 .pbutton .buttonitem
+.prices .items .item .pbutton .buttonitem
 {
     height: 50px;
     width: 100px;
@@ -224,27 +224,11 @@
 }
 
 
-.prices .items .item1 .pbutton .buttonitem:hover
+.prices .items .item .pbutton .buttonitem:hover
 {
    background-color: #14931F;
    color: #DFDBF5;
 }
-
-.prices .items .item2 .pbutton .buttonitem
-{
-    height: 50px;
-    width: 100px;
-    border-radius: 20px;
-    font-size: 24px;
-    color: #646F75;
-}
-
-.prices .items .item2 .pbutton .buttonitem:hover
-{
-   background-color: #14931F;
-   color: #DFDBF5;
-}
-
 
 .wrapper
 {
