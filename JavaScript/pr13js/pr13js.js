@@ -2,10 +2,10 @@ let person =
 {
     firstName: "Denys",
     age: 20,
-    sayHello: function ()
+    sayHello: function (X, Y)
     {
-        alert("Hello! My name is " + this.firstName + " ,I`m " + this.age + "!");
+        alert("Hello! My name is " + X + " ,I`m " + Y + "!");
     }
 };
 
-person.sayHello();
+person.sayHello(person.firstName, person.age);
