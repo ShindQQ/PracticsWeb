@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 1</title>
+    <title>Task 4</title>
 </head>
 
 <body>
@@ -34,21 +34,20 @@
         <li>Item 03</li>
         <li>Item 04</li>
         <li>Item 05</li>
-    </ul>]
+    </ul>
 
     <script>
         /* 
         Задание:
-            Найдите на странице все параграфы с классом border и добавьте для них сплошную красную рамку толщиной в 1px
+        Для первого и последнего элемента li для всех ul на данной странице
+        добавьте сплошную красную рамку толщиной в 1px
         */
     
-        let items = document.querySelectorAll(".border");
-
-        for(const item of items)
-        {
-            item.style.border = "1px solid red";
-        }
-
+        var items = document.querySelectorAll("ul li");
+        items[0].style.border = "1px solid red";
+        items[items.length / 2 - 1].style.border = "1px solid red";
+        items[items.length / 2].style.border = "1px solid red";
+        items[items.length - 1].style.border = "1px solid red";
     </script>
 </body>
 </html>
